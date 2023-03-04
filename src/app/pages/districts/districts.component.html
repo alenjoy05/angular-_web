@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="container">
+        <div class="row" style="justify-content: center !important;">
+            <div class="card" style="width: 18rem; margin: 20px;padding-top: 10px;" *ngFor="let item of data">
+                <img src= "{{item.img}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.name}}</h5>
+
+                     <a (click)="goto(item.content)"  class="btn btn-primary">For more info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

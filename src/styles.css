@@ -1,0 +1,7 @@
+body{
+backdrop-filter: blur(5px);
+background-image: url("https://cdn.siasat.com/wp-content/uploads/2022/11/tourists-nov25-780x470.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
