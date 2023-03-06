@@ -1,13 +1,13 @@
 <div class="bg-dark">
-  <h1 style="color: white; padding-left: 40px">{{ district[0].name }}</h1>
+  <h1 style="color: white; padding-left: 40px">{{ districts[0].name }}</h1>
   <div class="row" style="padding: 20px; justify-content: center">
     <div
       class="card bg-dark"
       style="width: 500px; margin: 10px; margin-right: 20px"
     >
       <div class="card-body">
-        <p class="card-text" style="color: white; padding-top: 30px">
-          {{ district[0].content }}
+        <p class="card-text" style="color: rgb(255, 255, 255); padding-top: 30px">
+          {{ districts[0].content}}
         </p>
         <span>
           <a>
@@ -16,13 +16,11 @@
                 align-items: center;
                 text-align: center;
                 padding: 7px;
-                background-color: white;
                 border-radius: 40px;
                 width: 100px;
+                height: 600px;
                 justify-content: baseline;
-              "
-            >
-              Lets Go
+              ">
             </h6>
           </a>
         </span>
@@ -30,14 +28,17 @@
     </div>
     <div
       class="card bg-secondary"
-      style="width: 500px; height: 400px; margin: 10px; justify-content: center"
+      style="width: 500px; height: 30px; margin: 100px;"
     >
       <img
-        style="background-color: cyan; filter: drop-shadow(0px 10px 4px black)"
-        src="{{ district[0].img }}"
+        style=" filter: drop-shadow(0px 10px 4px rgb(8, 8, 8))"
+        src="{{ districts[0].img }}"
         class="img-fluid"
-        alt="..."
+        alt="..." border-radius="20px"
       />
+
     </div>
+
   </div>
+
 </div>

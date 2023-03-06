@@ -9,7 +9,7 @@ import { SignUpComponent } from './pages/sign-up/sign-up.component';
 import { NavbarComponent } from './units/navbar/navbar.component';
 import { FooterComponent } from './units/footer/footer.component';
 import { SingleComponent } from './pages/single/single.component';
-import { AssetsComponent } from './img/assets/assets.component';
+
 
 
 @NgModule({
@@ -22,7 +22,7 @@ import { AssetsComponent } from './img/assets/assets.component';
     NavbarComponent,
     FooterComponent,
     SingleComponent,
-    AssetsComponent,
+
   ],
   imports: [
     BrowserModule,
